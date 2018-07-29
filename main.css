@@ -1,0 +1,107 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Times New Roman";
+}
+
+
+.btn {
+	font-weight: 700;
+	height: 36px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	cursor: default;
+	border-radius:0;
+	background:#43A6EB;
+	height: 55px;
+	margin-bottom:10px;
+	font-size: 16px;
+	color: white;
+	border:1px solid #43A6EB;
+	padding:10px 143px;
+	align-self: center;
+}
+
+
+.btn-signin:hover,
+.btn-signin:active,
+.btn-signin:focus {
+	background-color: #2E86C1;
+	
+}
+
+.container{
+	width:80%;
+	margin:0 auto;
+}
+
+.card-container.card {
+	max-width: 350px;
+
+}
+/*
+ * Card component
+ */
+.card {
+	background-color: #FFFFFF;
+	/* just in case there no content*/
+	padding: 1px 25px 30px;
+	margin: 0 auto 25px;
+	margin-top: 15%x;
+
+}
+
+.welcome{
+	font-family: "myriad-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color:#ffffff;
+	margin-bottom:25px;
+	margin-top:50px;
+
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.login_box{
+	background:#f7f7f7;
+	border:3px solid #F4F4F4;
+	padding-left: 15px;
+	margin-bottom:25px;
+}
+
+.input_title{
+	color:rgba(164, 164, 164, 0.9);
+	padding-left:3px;
+	margin-bottom: 2px;
+}
+
+#inputEmail,#inputamount,#inputName,#inputMobile,#inputptype {
+	direction: ltr;
+	height: 30px;
+	font-size: 16px;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin input[type=tel],
+.form-signin input[type=date],
+.form-signin button {
+	width: 100%;
+	display: block;
+	z-index: 1;
+	position: relative;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+	border-color: rgb(104, 145, 162);
+	outline: 0;
+
+}
